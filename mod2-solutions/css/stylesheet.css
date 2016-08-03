@@ -1,1 +1,83 @@
+/* Base styles */
+* {
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	box-sizing: border-box;
+}
+
+h1 {
+	text-align: center;
+	font-size: 165%;
+}
+
+h2 {
+	text-align: center;
+	width: 125px;
+	border: 1px solid black;
+	font-size: 115%;
+	position: relative;
+	z-index: 2;
+	float: right;
+	right: 10px;
+}
+
+#Chicken {
+	background-color: #FFBABA;
+}
+
+#Beef {
+	background-color: #A83939;
+	color: white;
+}
+
+#Sushi {
+	background-color: #D9D059;
+}
+
+p {
+	background-color: #E6E6E6;
+	font-size: 90%;
+	position: relative;
+	padding: 40px 15px 15px 15px;
+	border: 1px solid black;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+
+.row {
+	width: 100%;
+	display: inline-block;
+}
+
+/*************** Desktop ****************/
+@media (min-width: 992px) {
+
+	.col-lg-4 {
+		width: 33.33%;
+		float: left;
+
+	}
+}
+
+/*************** Tablet *****************/
+@media (min-width: 768px) and (max-width: 991px) {
+	
+	.col-md-6 {
+		float: left;
+		width: 50%;
+	}
+
+	.col-md-12 {
+		float: left;
+		width: 100%;
+	}
+
+
+}
+
+/*************** Mobile *****************/
+@media (max-width: 767px) {
+	h2 {
+		bottom: 15px;
+	}
+}
 

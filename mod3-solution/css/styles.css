@@ -1,0 +1,54 @@
+body {
+	font-family: 'Montserrat', sans-serif;
+}
+
+p {
+	padding: 40px;
+	padding-top: 0px;
+	background-color: #B5E5F5;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-top: 0px;
+}
+
+h3 {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color: #B5E5F5;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-bottom: 0px;
+	text-decoration: bold;
+}
+
+.navbar-header h1:hover {
+	text-decoration: none;
+}
+
+.navbar-brand {
+	padding-top: 20px;
+}
+
+.navbar-brand h2 {
+	text-decoration: none;
+	margin-left: 20px;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+	text-decoration: none;
+}
+
+.navbar-header button.navbar-toggle {
+	clear: both;
+	margin-top: -50px;
+}
+
+li {
+	background-color: black;
+}
+
+#nav-list a {
+	text-align: center;
+	vertical-align: center;
+	font-size: 1.5em;
+}
